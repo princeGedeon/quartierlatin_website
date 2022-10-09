@@ -15,7 +15,7 @@
 </head>
 <body style="font-family: 'Poppins', sans-serif;">
     
-<div class="min-h-screen w+full flex flex-col relative">
+<div class="min-h-screen w-full flex flex-col relative">
     <nav class=" py-4 px-8 bg-[#EDEEFF]rounded  ">
     <div class="container flex flex-wrap  justify-between items-center ">
       <a href="#" class="flex items-center">
@@ -27,16 +27,16 @@
         <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
-        <ul class="flex flex-col mt-4 bg-gray-50 rounded-lg md:flex-row md:space-x-5 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+        <ul class="flex flex-col gap-10 mt-4 bg-gray-50 rounded-lg md:flex-row md:space-x-5 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
           
           <li>
-            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-[#04B2D9] md:hover:bg-transparent md:border-0 md:hover:text-[#04B2D9] md:p-0  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Accueil</a>
+            <a href="./index.html" class="block py-2 pr-6 pl-3 text-gray-700 md:text-blue-700 rounded bg-[#04B2D9] md:bg-transparent md:border-0 md:text-[#04B2D9] md:p-0  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Accueil</a>
           </li>
           <li>
             <a href="#renseignement" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-[#04B2D9] md:hover:bg-transparent md:border-0 md:hover:text-[#04B2D9] md:p-0  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Renseignement</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-[#04B2D9] md:hover:bg-transparent md:border-0 md:hover:text-[#04B2D9] md:p-0  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Résultats</a>
+            <a href="./resultat.html" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-[#04B2D9] md:hover:bg-transparent md:border-0 md:hover:text-[#04B2D9] md:p-0  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Résultats</a>
           </li>
 
           <li>
@@ -77,7 +77,7 @@
         <p class="mt-2 text-md xl:text-xl">Donnez la meilleure chance de réussite à votre enfant
             en l’inscrivant dans l’établissement de référence,
             Quartier Latin Emmanuel Mounier.</p>
-            <div class="flex gap-5 mt-8 ">
+            <div class="flex flex-col w-fit  sm:flex-row gap-5 mt-8 ">
                 <a href="#contact" class="px-6 py-2 bg-[#04B2D9] text-white rounded-md shadow-md">
                     Inscrivez-vous
                 </a>
@@ -184,7 +184,7 @@
       </h2>
       <div id="accordion-arrow-icon-body-2" class="hidden" aria-labelledby="accordion-arrow-icon-heading-2">
         <div class="p-5 font-light border border-b-0 border-gray-200 ">
-            <ul class="space-y-1 max-w-md list-disc list-inside text-gray-500 dark:text-gray-400">
+            <ul class="space-y-1 max-w-md list-disc list-inside text-gray-800 dark:text-gray-400">
                 <li>  
                     Pour les anciens: ( Maternelle: 2000FCFA, Primaire: 1000FCFA,
                     Secondaire: 2000FCFA, Enseignement technique: 5000FCFA )
@@ -212,7 +212,7 @@
       <div id="accordion-arrow-icon-body-3" class="hidden" aria-labelledby="accordion-arrow-icon-heading-3">
         
         <div class="p-5 font-light border border-b-0 border-gray-200 ">
-        <ul class="space-y-1  max-w-md list-disc list-inside text-gray-500 dark:text-gray-400">
+        <ul class="space-y-1  max-w-md list-disc list-inside text-gray-800 dark:text-gray-400">
             <li>  
                 Les filles porteront une chemise et une jupe avec tissu au logo du collège
       ( voir l’administration pour le modèle )
@@ -246,7 +246,7 @@
       <div id="accordion-arrow-icon-body-4" class="hidden" aria-labelledby="accordion-arrow-icon-heading-4">
         
         <div class="p-5 font-light border border-b-0 border-gray-200 ">
-        <ul class="space-y-1  max-w-md list-disc list-inside text-gray-500 dark:text-gray-400">
+        <ul class="space-y-1  max-w-md list-disc list-inside text-gray-800 dark:text-gray-400">
             <li>Tout candidat en classe d’examen doit systématiquement solder
       les frais d’écolage et autres frais avant le dépôt du dossier d’examen.</li>
 <li>Des parents peuvent solliciter et obtenir une dérogation de paiement.</li>
@@ -302,7 +302,11 @@ approche pour leur offrir un avenir radieux et une cursus qui leur garantira le 
 
 </section>
 
-<section id="contact" class="min-h-screen mt-10 py-5 px-10 flex flex-col md:flex-row justify-between items-center">
+<section id="carte" class="min-h-screen mt-10 py-2 px-5 flex flex-col md:flex-row justify-center items-center">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7658526424516!2d2.332058813939034!3d6.42412282609493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1024a94f123593dd%3A0x53e0f076044da538!2sCS%20Quartier%20Latin%20EM!5e0!3m2!1sfr!2sbj!4v1664970636161!5m2!1sfr!2sbj" width="750" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section id="contact" class="min-h-screen mt-10 py-5 px-12 flex flex-col md:flex-row justify-between items-center">
 
    
     <div class="w-full  md:w-1/2">
@@ -369,6 +373,59 @@ approche pour leur offrir un avenir radieux et une cursus qui leur garantira le 
 
 </section>
 
+<section class="py-5 px-12 mb-3">
+
+<h2 class="text-blue-800 ">Administration</h2>
+<h1 class="mt-1 text-xl font-bold">Membre de l'Administration</h1>
+
+<div class=" mt-6 flex flex-col md:flex-row gap-5 justify-between">
+  
+  <div class="flex flex-col gap-3  rounded-md w-[300px] h-[250px]">
+        <div class="grow rounded-md shadow-md hover:shadow-2xl overflow-hidden bg-red-800">
+        <img src="./img/5742676 2.png" class="object-cover" alt="">
+        </div>
+        
+        <div class="text-center ">
+          <h1 class="font-semibold text-xl">John DOE</h1>
+          <h2 class="text-blue-900 mt-2">Directeur</h2>
+        </div>
+      </div>
+
+
+      <div class="flex flex-col gap-3  rounded-md w-[300px] h-[250px]">
+        <div class="grow rounded-md shadow-md hover:shadow-2xl overflow-hidden bg-red-800">
+        <img src="./img/5742676 2.png" class="object-cover" alt="">
+        </div>
+        
+        <div class="text-center ">
+          <h1 class="font-semibold text-xl">John DOE</h1>
+          <h2 class="text-blue-900 mt-2">Directeur</h2>
+        </div>
+      </div>
+
+
+      <div class="flex flex-col gap-3  rounded-md w-[300px] h-[250px]">
+        <div class="grow rounded-md shadow-md hover:shadow-2xl overflow-hidden bg-red-800">
+        <img src="./img/5742676 2.png" class="object-cover" alt="">
+        </div>
+        
+        <div class="text-center ">
+          <h1 class="font-semibold text-xl">John DOE</h1>
+          <h2 class="text-blue-900 mt-2">Directeur</h2>
+        </div>
+      </div>
+
+
+
+
+      
+
+
+</div>
+
+
+</section>
+
 
 
 
@@ -380,7 +437,7 @@ approche pour leur offrir un avenir radieux et une cursus qui leur garantira le 
              
           </a>
       </div>
-      <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+      <div class="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
               <h2 class="mb-6 text-sm font-semibold  uppercase text-white">Liens utiles</h2>
               <ul class="text-[#04B2D9]">
@@ -399,7 +456,7 @@ approche pour leur offrir un avenir radieux et une cursus qui leur garantira le 
                       +229 97 13 90 61 / +229 95 96 33 45
                   </li>
                   <li>
-                      <a href="mailto:quartierlatin@gmail.com" class="hover:underline">quartierlatin@gmail.com</a>
+                      <a href="mailto:quartierlatinmaunier@gmail.com" class="hover:underline">quartierlatinmaunier@gmail.com</a>
                   </li>
               </ul>
           </div>
