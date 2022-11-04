@@ -1659,6 +1659,11 @@ input[type="range"]::-ms-fill-lower {
   font-size: 5em;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
